@@ -1,0 +1,46 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+@import url('components/banner.css');
+@import url('components/cards.css');
+@import url('components/footer.css');
+@import url('components/button.css');
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+  background-color: #F7F6F4;
+  color: #1B2129;
+}
+
+h1, h2, h3, h4 {
+  font-family: Space Mono;
+}
+
+h1 {
+  font-size: 52px;
+  line-height: 1.2em;
+}
+
+h3 {
+  padding-top: 0px;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+

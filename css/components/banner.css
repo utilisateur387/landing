@@ -1,0 +1,25 @@
+.banner {
+  /*background-image: url('https://i.picsum.photos/id/1029/4887/2759.jpg?hmac=uMSExsgG8_PWwP9he9Y0LQ4bFDLlij7voa9lU9KMXDE');*/
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://i.picsum.photos/id/1045/3936/2624.jpg?hmac=PMfAbC94Asle_jgeRYsj7zQHFabfTfsIwL247Ewetwc');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 60px;
+  /*flex-direction: row;*/
+}
+
+.banner h1 {
+  max-width: 900px;
+  margin-bottom: 30px;
+}
+
+.banner p {
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
